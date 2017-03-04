@@ -1,11 +1,10 @@
-﻿//
-// pch.h
-// Header for standard system include files.
-//
+﻿#pragma once
 
-#pragma once
+#pragma comment(lib, "windowsapp")
 
-#include <collection.h>
-#include <ppltasks.h>
-
-#include "App.xaml.h"
+#include <winrt/ppl.h>
+#include <winrt/Windows.ApplicationModel.Activation.h>
+#include <winrt/Windows.ApplicationModel.Core.h>
+#include <winrt/Windows.UI.Core.h>
+#include <winrt/Windows.UI.Xaml.Controls.h>
+#include <winrt/Windows.Storage.h>

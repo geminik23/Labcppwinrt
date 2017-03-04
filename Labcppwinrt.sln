@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseTemplate", "BaseTemplate\BaseTemplate.vcxproj", "{41F2762E-6C89-4A1D-BC3A-346AAF3F7318}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B1441EEB-C5DC-4E4C-AB04-02A0E685EDFA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStreamTest", "DataStreamTest\DataStreamTest.vcxproj", "{F2EF4C23-0645-43EA-8D54-22168F019D91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +40,24 @@ Global
 		{41F2762E-6C89-4A1D-BC3A-346AAF3F7318}.Release|x86.ActiveCfg = Release|Win32
 		{41F2762E-6C89-4A1D-BC3A-346AAF3F7318}.Release|x86.Build.0 = Release|Win32
 		{41F2762E-6C89-4A1D-BC3A-346AAF3F7318}.Release|x86.Deploy.0 = Release|Win32
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Debug|ARM.Build.0 = Debug|ARM
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Debug|x64.ActiveCfg = Debug|x64
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Debug|x64.Build.0 = Debug|x64
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Debug|x64.Deploy.0 = Debug|x64
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Debug|x86.ActiveCfg = Debug|Win32
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Debug|x86.Build.0 = Debug|Win32
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Debug|x86.Deploy.0 = Debug|Win32
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Release|ARM.ActiveCfg = Release|ARM
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Release|ARM.Build.0 = Release|ARM
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Release|ARM.Deploy.0 = Release|ARM
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Release|x64.ActiveCfg = Release|x64
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Release|x64.Build.0 = Release|x64
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Release|x64.Deploy.0 = Release|x64
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Release|x86.ActiveCfg = Release|Win32
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Release|x86.Build.0 = Release|Win32
+		{F2EF4C23-0645-43EA-8D54-22168F019D91}.Release|x86.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
