@@ -2,19 +2,23 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Common">
-      <UniqueIdentifier>f2ef4c23-0645-43ea-8d54-22168f019d91</UniqueIdentifier>
+      <UniqueIdentifier>510052d0-eb29-4665-9114-86428c468330</UniqueIdentifier>
     </Filter>
     <Filter Include="Assets">
-      <UniqueIdentifier>8c801a1d-9c8a-40cc-834f-27fedcccb623</UniqueIdentifier>
+      <UniqueIdentifier>105dd3c6-788f-4146-8622-ba8267c98814</UniqueIdentifier>
       <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="App.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png">
@@ -43,7 +47,6 @@
     <AppxManifest Include="Package.appxmanifest" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="DataStreamTest_TemporaryKey.pfx" />
-    <None Include="README.md" />
+    <None Include="NavigateFrame_TemporaryKey.pfx" />
   </ItemGroup>
 </Project>
