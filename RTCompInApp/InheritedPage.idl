@@ -1,0 +1,25 @@
+import "inspectable.idl";
+import "windows.ui.xaml.controls.idl";
+
+
+#define VERSION 1.0
+
+namespace Testing{
+
+	runtimeclass InheritedPage;
+
+	[version(VERSION), uuid(325246d5-c808-4a2e-97f7-abafe4f429f1), exclusiveto(InheritedPage)]
+	interface IInheritedPage : IInspectable
+	{
+	}
+
+
+
+	[version(VERSION), activatable(VERSION), marshaling_behavior(agile), threading(both)]
+	runtimeclass InheritedPage
+	{
+		[default] interface IInheritedPage;
+	}
+
+
+}

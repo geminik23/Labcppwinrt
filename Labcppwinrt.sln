@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26206.0
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseTemplate", "BaseTemplate\BaseTemplate.vcxproj", "{41F2762E-6C89-4A1D-BC3A-346AAF3F7318}"
 EndProject
@@ -14,7 +14,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStreamTest", "DataStrea
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NavigateFrame", "NavigateFrame\NavigateFrame.vcxproj", "{510052D0-EB29-4665-9114-86428C468330}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTCompInApp", "RTCompInApp\RTCompInApp.vcxproj", "{454674AC-E842-4E36-BE05-BC2029B4F32C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "W2Inc", "W2Inc\W2Inc.vcxitems", "{1CFA909D-CE1E-455D-BF76-19BDC60BC498}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		W2Inc\W2Inc.vcxitems*{1cfa909d-ce1e-455d-bf76-19bdc60bc498}*SharedItemsImports = 9
+		W2Inc\W2Inc.vcxitems*{454674ac-e842-4e36-be05-bc2029b4f32c}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
@@ -78,6 +86,24 @@ Global
 		{510052D0-EB29-4665-9114-86428C468330}.Release|x86.ActiveCfg = Release|Win32
 		{510052D0-EB29-4665-9114-86428C468330}.Release|x86.Build.0 = Release|Win32
 		{510052D0-EB29-4665-9114-86428C468330}.Release|x86.Deploy.0 = Release|Win32
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Debug|ARM.Build.0 = Debug|ARM
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Debug|ARM.Deploy.0 = Debug|ARM
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Debug|x64.ActiveCfg = Debug|x64
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Debug|x64.Build.0 = Debug|x64
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Debug|x64.Deploy.0 = Debug|x64
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Debug|x86.ActiveCfg = Debug|Win32
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Debug|x86.Build.0 = Debug|Win32
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Debug|x86.Deploy.0 = Debug|Win32
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Release|ARM.ActiveCfg = Release|ARM
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Release|ARM.Build.0 = Release|ARM
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Release|ARM.Deploy.0 = Release|ARM
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Release|x64.ActiveCfg = Release|x64
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Release|x64.Build.0 = Release|x64
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Release|x64.Deploy.0 = Release|x64
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Release|x86.ActiveCfg = Release|Win32
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Release|x86.Build.0 = Release|Win32
+		{454674AC-E842-4E36-BE05-BC2029B4F32C}.Release|x86.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{1cfa909d-ce1e-455d-bf76-19bdc60bc498}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AsyncOperation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ClosablePtr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ComArray.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ErrorHandling.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)LifespanTracker.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Map.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Nullable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReferenceArray.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RegisteredEvent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScopeWarden.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Singleton.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utilities.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Vector.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WinStringBuilder.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)WinStringWrapper.h" />
+  </ItemGroup>
+</Project>
