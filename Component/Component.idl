@@ -1,0 +1,18 @@
+import "inspectable.idl";
+
+#define VERSION 1.0
+namespace Component
+{
+	[version(VERSION), uuid(731fcdee-39ba-4d24-9e28-e0f57d27922a)]
+	interface IComponent : IInspectable
+	{
+		HRESULT SayHello(HSTRING Hello);
+	}
+
+	[version(VERSION), activatable(VERSION)]
+	runtimeclass Component
+	{
+		[default] interface IComponent;
+	}
+
+}
